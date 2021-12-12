@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript"> 
+function display_c(){
+var refresh=1000; 
+mytime=setTimeout('display_ct()',refresh)
+}
+
+function display_ct() {
+var x = new Date()
+document.getElementById('ct').innerHTML = x;
+display_c();
+ }
+</script>
+</head>
+<header>
+	<h1>Personal<span>Website</span></h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="hobbies.html">Hobbies</a></li>
+			<li><a href="skills.html">Skills</a></li>
+			<li><a href="contact.html">Contacts</a></li>
+		</ul>
+	</nav>
+</header>
+<body bgcolor="#F6F2D4" onload=display_ct();>
+
+
+	<img src="">
+	<div class="Start">
+	<img src="images/sunsets.jpg" height="400px" />
+
+	<h2>Personal Website</h2>
+	<div>
+	<center>
+	<p id='ct' ></p>
+	</center>
+
+</div>
+<div class="text">
+<p>A personal website showcasing who Christian Paul Malimit really is in maximum authenticity. An exhibition of him in the limelight, and his sole perspective who's remained unshared until now. Here you will witness content specifically including my biography, hobbies, photography about me, and my personal contact information distinctively for the purposes of reaching out to me.</p>
+</div>
+</body>
+</html>
